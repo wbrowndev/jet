@@ -1,0 +1,228 @@
+@import "../base/base.scss";
+@import "../abstracts/mixins.scss";
+@import "../components/features.scss";
+@import "../components/preloader.scss";
+// Header Component
+@import "../components/header.scss";
+.header {
+  @include header-style(
+    linear-gradient(
+      to right bottom,
+      rgba(20, 136, 204, 0.7),
+      rgba(43, 50, 178, 0.8)
+    ),
+    url("../img/hero-airport.jpg")
+  );
+}
+
+@media (max-width: 770px) {
+  .header__content__heading {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 580px) {
+  .header__content__heading {
+    font-size: 2.5rem;
+  }
+  .header__content__heading2 {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 520px) {
+  .header__content__heading {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  }
+  .header__content__heading2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__content__heading {
+    font-size: 1.5rem;
+  }
+  .header__content__heading2 {
+    font-size: 1rem;
+  }
+}
+
+// Gallery Component
+.section-gallery {
+  margin-top: 8rem;
+  height: min-content;
+  margin-bottom: 5rem;
+}
+.sub-heading {
+  margin: 4rem;
+  padding: 4rem;
+  color: #40739e;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  font-size: 3rem;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  &__card {
+    height: 45rem;
+    box-shadow: $base-box-shadow;
+    position: relative;
+    & h2 {
+      font-size: 1.8rem;
+      background-color: #192a56;
+      box-shadow: 1rem 0 1rem rgba(0, 0, 0, 0.205);
+      color: $base-color;
+      padding: 1rem;
+      width: 90%;
+      top: 38%;
+      @include centerButton;
+    }
+  }
+  & img {
+    width: 100%;
+    height: 20rem;
+  }
+}
+.gallery__card__content {
+  margin-top: 4rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  &__btns {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+  }
+  & .card-pricings-btn {
+    background-color: $secondary-btn-background-transfers;
+  }
+  & .card-book-btn {
+    font-size: 1.7rem;
+    background-color: $global-button-bg-color;
+    box-shadow: $base-box-shadow;
+    color: $global-button-color;
+    font-weight: 600;
+  }
+}
+@media (max-width: 1100px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    &__card {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+
+// Hotels Component
+h3 {
+  text-align: center;
+}
+.hotels {
+  margin-top: 15rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7rem 4rem;
+  & h3 {
+    font-size: 3rem;
+  }
+  &__hotel {
+    transition: height 350ms ease-out;
+    box-shadow: $base-box-shadow;
+    height: 5rem;
+    border-radius: 0.5rem;
+    &__name {
+      border-radius: 0.5rem;
+      padding: 1rem;
+      text-align: center;
+      background-color: $hotels-content-background;
+      color: #fff;
+      position: relative;
+      cursor: pointer;
+    }
+  }
+}
+.hotels__hotel__payment-btn {
+  background-color: $global-button-bg-color;
+  font-weight: 600;
+  padding: 0.7rem;
+  color: $global-button-color;
+  border-radius: 4rem;
+  box-shadow: $base-box-shadow;
+  text-align: center;
+  width: 70%;
+  margin: 1rem auto;
+  animation: shake 200ms 3 ease-in 1s;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(-0.7rem);
+  }
+  50% {
+    transform: translateX(0.7rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+span {
+  display: inline-block;
+}
+
+.right-arrow {
+  background-color: $base-color;
+  width: 2.5rem;
+  height: 2.5rem;
+  clip-path: polygon(15% 14%, 15% 93%, 84% 57%);
+}
+.down-arrow {
+  clip-path: polygon(10% 21%, 48% 89%, 94% 21%) !important;
+}
+.hotels__hotel__description {
+  margin-top: 1rem;
+  color: #000;
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+
+.hotels-height {
+  height: 34rem;
+}
+.hotels-hide-description {
+  display: none;
+}
+
+@media (max-width: 1175px) {
+  .hotels {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 670px) {
+  .hotels {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 380px) {
+  .hotels-height {
+    height: min-content;
+  }
+}

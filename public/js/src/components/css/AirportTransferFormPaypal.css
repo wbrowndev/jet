@@ -1,0 +1,12 @@
+.paypal-form {
+  width: 70%;
+  margin: 3rem auto;
+}
+.price-error-hidden {
+  display: none;
+}
+.price-error {
+  color: red;
+  margin: 1rem;
+  display: block !important;
+}

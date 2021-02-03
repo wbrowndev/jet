@@ -1,0 +1,42 @@
+{
+    "cards" : [
+    {
+        "id":1,
+        "price": "$300",
+        "name" : "Dunn's River Falls",
+        "type" : "Try climbing the falls"
+    },
+    {
+        "id":2,
+        "price": "$300",
+        "name" : "Martha Brae River",
+        "type" : "Have a Romantic Trip"
+    },
+    {
+        "id":3,
+        "price": "$300",
+        "name" : "Negril Beach",
+        "type": "Bask in the sunshine"
+    },
+    {
+        "id":4,
+        "price": "$300",
+        "name" : "Blue Mountain",
+        "type" : "Venture through the hills"
+    },
+   
+    {
+        "id":6,
+        "price": "$300",
+        "name" : "River Tubing",
+        "type" : "Tube along the river"
+
+    },
+    {
+        "id":7,
+        "price": "$300",
+        "name" : "Chukka ATV",
+        "type" : "Ride through a Safari"
+    }
+    ]
+}
