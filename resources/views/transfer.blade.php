@@ -41,9 +41,9 @@
 
                  <figure class="gallery__card">
                 <img src="../img/ocean-coral-spring.jpg" alt="Ocean Coral Spring Hotel">
-                <h2>Falmoth</h2>
+                <h2>Falmouth</h2>
                 <div class="gallery__card__content">
-                    <a href="/book?place=falmoth"> <div class="gallery__card__content__btns card-book-btn">Book</div></a>
+                    <a href="/book?place=falmouth"> <div class="gallery__card__content__btns card-book-btn">Book</div></a>
                     <div class="gallery__card__content__btns card-pricings-btn">Check Pricings</div>
                 </div>
                 </figure>

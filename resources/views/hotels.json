@@ -10,7 +10,7 @@
             "name":"Excellence Oyster Bay",
             "smallPrice": "48",
             "largePrice": "11",
-            "place":"falmoth"
+            "place":"falmouth"
         },
         {
             "name":"Holiday Inn",
@@ -70,13 +70,13 @@
             "name":"Ocean Coral Spring",
             "smallPrice": "48",
             "largePrice": "11",
-            "place": "falmoth"
+            "place": "falmouth"
         },
         {
             "name":"Bahia Principe Grand",
             "smallPrice": "73",
             "largePrice": "17",
-            "place":"falmoth"
+            "place":"falmouth"
         },
         {
             "name":"Hilton Rose Hall",
@@ -88,13 +88,13 @@
             "name":"Royalton Blue Waters",
             "smallPrice": "48",
             "largePrice": "11",
-            "place":"falmoth"
+            "place":"falmouth"
         },  
         {
             "name":"Royalton White Sands",
             "smallPrice": "48",
             "largePrice": "11",
-            "place": "falmoth"
+            "place": "falmouth"
         },  
         {
             "name":"Royalton Negril",
@@ -136,13 +136,13 @@
             "name":"Jewel Runaway Bay",
             "smallPrice": "73",
             "largePrice": "17",
-            "place":"falmoth"
+            "place":"falmouth"
         },
         {
             "name":"Jewel Paradise",
             "smallPrice": "73",
             "largePrice": "17",
-            "place":"falmoth"
+            "place":"falmouth"
         },
         {
             "name":"Riu Ocho Rios",
@@ -300,19 +300,19 @@
             "name":"Cardiff Hotel",
             "smallPrice": "48",
             "largePrice": "11",
-            "place": "falmoth"
+            "place": "falmouth"
         },
         {
             "name":"Royal Decameron",
             "smallPrice": "48",
             "largePrice": "11",
-            "place": "falmoth"
+            "place": "falmouth"
         },
         {
             "name":"Villa Turrasann",
             "smallPrice": "48",
             "largePrice": "11",
-            "place": "falmoth"
+            "place": "falmouth"
         }
         
 
