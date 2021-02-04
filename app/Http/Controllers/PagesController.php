@@ -45,4 +45,5 @@ class PagesController extends Controller
         mail("johnbaker11568@gmail.com","Book Tour",$mailBody);
         echo(json_encode(["success" => true, "message" => "Email Sent"]));
     }
+    
 }
