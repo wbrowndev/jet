@@ -56,7 +56,7 @@
     </div>
     </section>
     </main>
-
+    @include("layouts.footer")
     <script>
         
         window.addEventListener("load",removeLoader ) 

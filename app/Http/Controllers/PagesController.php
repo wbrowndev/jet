@@ -40,8 +40,9 @@ class PagesController extends Controller
         $email = $req -> input('email');
         $name = $req -> input("name");
         $message = $req -> input("message");
+        $mailBody = "Message from " . $name . " " . $email . " says" . $message;
         
-        mail("johnbaker11568@gmail.com","Book Tour",$name . $email . "says" . $message);
+        mail("johnbaker11568@gmail.com","Book Tour",$mailBody);
         echo(json_encode(["success" => true, "message" => "Email Sent"]));
     }
 }

@@ -73,7 +73,7 @@
 </section>
 <!-- Gallery Component -->
 <section class="section-gallery">
-    <h2>Gallery</h2>
+    <h2 style="font-size:3.5rem;text-align:left;color:#f39c12; margin-top:10rem;">Gallery</h2>
     <div class="gallery">
     <img src="../img/martha-brae.jpg" alt="Martha Brae Jamaica">
     <img src="../img/dunns-river-opt.jpg" alt="Dunns River Jamaica">
@@ -86,8 +86,9 @@
 
 </div>
 </section>
-
     </main>
+    @include("layouts.footer")
+
     <script>
         
         window.addEventListener("load",removeLoader ) 
