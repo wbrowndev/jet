@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="X4pZWItxAVbaNYinzm3Eww5ZYaob7KPxXbg9lANLZVk" />
+    <meta name="google-site-verification" content="uko6vLzEPHyxgUmkE3ijYv9PZ8kJxsc1Z0izR6WXx80" />
 <link rel="stylesheet" href="../css/index.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -76,11 +76,11 @@
     <h2 style="font-size:3.5rem;text-align:left;color:#f39c12; margin-top:10rem;">Gallery</h2>
     <div class="gallery">
     <img src="../img/martha-brae.jpg" alt="Martha Brae Jamaica">
-    <img src="../img/dunns-river-opt.jpg" alt="Dunns River Jamaica">
+    <img src="../img/horse-riding.jpg" alt="Dunns River Jamaica">
     <img src="../img/negril.jpg" alt="Negril Beach Jamaica">
     <img src="../img/blue-mountain-opt.jpg" alt="Blue Mountain Jamaica">
     <img src="../img/blue-hole.jpg" alt="Blue Hole Jamaica">
-    <img src="../img/river-tubing.jpg" alt="YS Falls Jamaica">
+    <img src="../img/dolphincove.jpg" alt="Dolphin Cove Jamaica">
     <img src="../img/rose-hall.jpg" alt="Rose Hall Jamaica">
     <img src="../img/chukka-atv.jpg" alt="Chukka Atv">
 
