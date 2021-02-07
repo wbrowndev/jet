@@ -169,6 +169,7 @@ li {
         position: absolute;
         top: 2rem;
         right: 2rem;
+        cursor: pointer;
     }
     .burger__stroke {
         width: 3.5rem;
