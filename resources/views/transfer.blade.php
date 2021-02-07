@@ -98,7 +98,7 @@
             <h3 class="sub-heading">Popular Hotels</h3>
             <div class="hotels">
                 
-                @for($i = 0; $i < 27; $i++)
+                @for($i = 0; $i < 21; $i++)
                    <div class="hotels__hotel">
                        <div class="hotels__hotel__name">
                            <span class="right-arrow"></span>
@@ -106,7 +106,7 @@
                        </div>
                        <ul class="hotels__hotel__description hotels-hide-description">
                            <li><b>$ {{ $hotels[$i]->smallPrice }} USD</b> : 1- 4  passengers traveling as a private group  </li>
-                           <li><b>$ {{ round(intval($hotels[$i]->smallPrice) * 1.7)}} USD (per person)</b>  : 5- 9 passengers traveling as a private group </li>
+                           <li><b>$ {{ round(intval($hotels[$i]->smallPrice) * 1.7)}} USD</b>  : 5- 9 passengers traveling as a private group </li>
                            <li>Groups of 10 or more please contact us for info on the group rate </li>
                            <a href="/book/?hotel={{ $hotels[$i]->name }}"><li class="hotels__hotel__payment-btn">Checkout</li></a>
                         </ul>

@@ -13,6 +13,9 @@
     padding-bottom:11rem;
     border-bottom:2px solid rgba(0,0,0,0.7);
 }
+.footer__section{
+    text-align:center;
+}
 .footer__heading{
     font-size:1.8rem;
     text-transform:uppercase;
@@ -107,7 +110,7 @@ grid-column:span 2;
     </div>
     </section>
     <section class="footer__sub">
-    <p>&copy Copyright 2021 JETT</p>
+    <p>&copy Copyright JETT 2021</p>
     <p>Website by Winston Brown</p>
     </section>
 </footer>
