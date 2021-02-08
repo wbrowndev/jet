@@ -83,7 +83,7 @@ grid-column:span 2;
 
         <p class="contact phone">
            <span class="contact__icon">☏</span>
-           <span>+1 (876) 855-4678</span>
+           <span>+1 (876) 855-9645</span>
         </p>
 
         <p class="contact email">
@@ -131,4 +131,7 @@ grid-column:span 2;
 
 // Change Burger To Close X on toggle
 
-//Remove per person from pricings -->
+//Remove per person from pricings 
+
+// Brainstorm Checkout Configuration
+-->
