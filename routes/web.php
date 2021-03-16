@@ -24,6 +24,8 @@ Route::get("/about-us", [PagesController::class, "aboutus"]);
 
 Route::get("/contactus",[PagesController::class, "contactus"]);
 
-Route::get("/hotels",[PagesController::class,"hotels"]);
+Route::get("/api/hotels",[PagesController::class,"hotels"]);
+
+Route::get("/api/tours",[PagesController::class,"tours"]);
 
 Route::post("/email", [PagesController::class,"sendEmail"]);

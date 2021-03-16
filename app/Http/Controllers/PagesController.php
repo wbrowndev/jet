@@ -9,7 +9,6 @@ class PagesController extends Controller
     public function index() {
         $cardsPath = "../resources/views/cards.json";
         $cardsJSON = file_get_contents($cardsPath);
-        
         return view('index',["cards" => $cardsJSON, "title" => "Jamaica Eternal Tours"]);
     }
 
@@ -42,8 +41,15 @@ class PagesController extends Controller
         $message = $req -> input("message");
         $mailBody = "Message from " . $name . " " . $email . " says" . $message;
         
-        mail("johnbaker11568@gmail.com","Book Tour",$mailBody);
+        mail("eternaltours876@gmail.com","Book Tour",$mailBody);
         echo(json_encode(["success" => true, "message" => "Email Sent"]));
+    }
+    public function tours() {
+        $cardsPath = "../resources/views/cards.json";
+        $cardsJSON = file_get_contents($cardsPath);
+        $cards = json_decode($cardsJSON) -> cards;
+        echo(json_encode($cards));
+
     }
     
 }

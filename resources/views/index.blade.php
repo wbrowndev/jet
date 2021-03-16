@@ -41,17 +41,16 @@
     @foreach (json_decode($cards) -> cards as $card)
 
         <div class=" cards__card">
-            <a href="/book">
-            <div class=" card-top-{{$card -> id}}">
-                <h3 class="card-top__heading">{{ $card->name }}</h3>
-            </div>
-         </a>
+            <a href="/book?selectedForm=tours">
+            <div class="cards__card__image-wrapper">
+            <img class="cards__card__image" src="{{$card->path}}" alt="{{ $card->name }}">
+        </div>
+            </a>
             <div class="card-btm">
-
-                <p>{{ $card->type }}</p>
+                <h3 class="card-btm__heading">{{ $card->name }}</h3>
+                <p class="card-btm__price">Price ${{ $card->price }} USD (per person)</p>
                 <div class="card-buttons-wrapper">
                 <a id="book-btn"class="card-btm__button" href="/book?selectedForm=tours">Book</a>     
-                <a id="learn-btn" class="card-btm__link" target="_blank" href="https://www.caribbeanandco.com/top-10-tourist-attractions-jamaica/">Learn More</a>
                  </div>
 
             </div>
@@ -99,6 +98,18 @@
           
          
       </script>
-  
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/604faa3cf7ce1827093054f0/1f0rj1v11';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>
