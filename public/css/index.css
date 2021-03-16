@@ -301,7 +301,7 @@ h2 {
     margin: 2rem auto;
 }
 .cards__card__image {
-    width: 30rem;
+    width:30rem;
     height: 25rem;
     transition: transform 0.8s;
 }
@@ -315,9 +315,10 @@ h2 {
     transform: scale(1.4);
 }
 
+
 .card-btm {
     padding-bottom: 3rem;
-    margin-top: 2rem;
+    margin-top: 2rem;  
 }
 .card-btm p:first-child {
     font-weight: bold;
