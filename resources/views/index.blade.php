@@ -48,7 +48,7 @@
             </a>
             <div class="card-btm">
                 <h3 class="card-btm__heading">{{ $card->name }}</h3>
-                <p class="card-btm__price">Price ${{ $card->price }} USD (per person)</p>
+                <p class="card-btm__price">Price {{ $card->price }} USD (per person)</p>
                 <div class="card-buttons-wrapper">
                 <a id="book-btn"class="card-btm__button" href="/book?selectedForm=tours">Book</a>     
                  </div>

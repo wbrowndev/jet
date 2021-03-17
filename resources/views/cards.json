@@ -1,69 +1,68 @@
 {
-    "cards" : [
-    {
-        "id":1,
-        "price": "67",
-        "name" : "Dunn’s River Falls & Martha Brae River Rafting Combo Tour Package",
-        "type" : "Try climbing the falls",
-        "path" : "./img/dunns-river.jpg"
-    },
-    {
-        "id":2,
-        "price": "45",
-        "name" : "Martha Brea River Rafting & Luminous Lagoon Combo Tour",
-        "type" : "Have a Romantic Trip",
-        "path" : "./img/marthabrea.jpg"
-    },
-    {
-        "id":3,
-        "price": "40",
-        "name" : "Luminous Lagoon Glistening Waters, Falmouth, Jamaica",
-        "type": "Bask in the sunshine",
-        "path" : "./img/luminous-lagoon.jpg"
-    },
-    {
-        "id":4,
-        "price": "82",
-        "name" : "Black River Safari & Appleton Rum Factory Combo Tour Package",
-        "type" : "Venture through the hills",
-        "path" : "./img/black-river.jpg"
-    },
-   
-    {
-        "id":5,
-        "price": "73",
-        "name" : "Blue Hole & River Rafting Ocho Rios",
-        "type" : "Tube along the river",
-        "path" : "./img/blue-hole.jpg"
+    "cards": [
+        {
+            "id": 1,
+            "price": "$50.00 - $75.00",
+            "name": "Dunn’s River Falls & Martha Brae River Rafting Combo Tour Package",
+            "type": "Try climbing the falls",
+            "path": "./img/dunns-river.jpg"
+        },
+        {
+            "id": 2,
+            "price": "$20.00 - $50.00",
+            "name": "Martha Brea River Rafting & Luminous Lagoon Combo Tour",
+            "type": "Have a Romantic Trip",
+            "path": "./img/marthabrea.jpg"
+        },
+        {
+            "id": 3,
+            "price": "$10.00 - $55.00",
+            "name": "Luminous Lagoon Glistening Waters, Falmouth, Jamaica",
+            "type": "Bask in the sunshine",
+            "path": "./img/luminous-lagoon.jpg"
+        },
+        {
+            "id": 4,
+            "price": "$63.00 - $90.00",
+            "name": "Black River Safari & Appleton Rum Factory Combo Tour Package",
+            "type": "Venture through the hills",
+            "path": "./img/black-river.jpg"
+        },
 
-    },
-    {
-        "id":6,
-        "price": "62",
-        "name" : "Zipline , ATV & Horseback Riding Negril Combo Tour Package",
-        "type" : "Ride through a Safari",
-        "path" : "./img/chukka-atv.jpg"
-    },
-    {
-        "id":7,
-        "price": "53",
-        "name" : "Rose Hall Great House & Luminous Lagoon Combo Tour Package",
-        "type" : "Ride through a Safari",
-        "path" : "./img/rose-hall.jpg"
-    },
-    {
-        "id":8,
-        "price": "31",
-        "name" : "White Witch Golf Course Rose Hall, Montego Bay, Jamaica",
-        "type" : "Ride through a Safari",
-        "path" : "./img/white-witch-golf.jpg"
-    },
-    {
-        "id":9,
-        "price": "84",
-        "name" : "Pelican Bar, Black River Safari & Ys Falls Combo Tour Package",
-        "type" : "Ride through a Safari",
-        "path" : "./img/pelican-bar.jpg"
-    }
+        {
+            "id": 5,
+            "price": "$25.00 - $80.00",
+            "name": "Blue Hole & River Rafting Ocho Rios Combo Tour Package",
+            "type": "Tube along the river",
+            "path": "./img/blue-hole.jpg"
+        },
+        {
+            "id": 6,
+            "price": "$30.00 - $75.00",
+            "name": "Zipline , ATV & Horseback Riding Negril Combo Tour Package",
+            "type": "Ride through a Safari",
+            "path": "./img/chukka-atv.jpg"
+        },
+        {
+            "id": 7,
+            "price": "$30.00 - $60.00",
+            "name": "Rose Hall Great House & Luminous Lagoon Combo Tour Package",
+            "type": "Ride through a Safari",
+            "path": "./img/rose-hall.jpg"
+        },
+        {
+            "id": 8,
+            "price": "$12.00 - $50.00",
+            "name": "White Witch Golf Course Rose Hall, Montego Bay, Jamaica",
+            "type": "Ride through a Safari",
+            "path": "./img/white-witch-golf.jpg"
+        },
+        {
+            "id": 9,
+            "price": "$50.00 - $90.00",
+            "name": "Pelican Bar, Black River Safari & Ys Falls Combo Tour Package",
+            "type": "Ride through a Safari",
+            "path": "./img/pelican-bar.jpg"
+        }
     ]
 }
