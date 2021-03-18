@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jamaica Eternal Tours And Transfers Booking</title>
     <script defer src="../js/dist/main.js"></script>
-
+    <style>
+        .forms__btn {
+            background-color:rgb(32, 78, 250) !important;
+        }
+        </style>
 </head>
 <body>
     
