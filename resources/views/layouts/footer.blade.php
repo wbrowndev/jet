@@ -24,6 +24,7 @@
 }
 .footer__icon{
     width:4rem;
+    height:4rem;
     margin:1rem;
     
 }
@@ -79,7 +80,7 @@ grid-column:span 2;
 <section class="footer__main">
     <div class="footer__section">
         <h3 class="footer__heading">Need Assitance ?</h3>
-        <h5>Contact us via phone or email :</h5>
+        <h4 style="font-size:1.8rem;font-weight:normal;">Contact us via phone or email :</h5>
 
         <p class="contact phone">
            <span class="contact__icon">☏</span>
@@ -94,8 +95,8 @@ grid-column:span 2;
     <div class="footer__section follow-us">
     <h3 class="footer__heading">Follow Us</h3>
     <div class="follow-us__icons">
-    <a target="_blank" href="https://facebook.com"><img class="footer__icon" src="../img/facebook.svg"/></a>
-    <img class="footer__icon" src="../img/google-plus.svg"/>
+    <a target="_blank" ><img class="footer__icon" src="../img/facebook.svg" alt="Google Plus Icon"/></a>
+    <img class="footer__icon" src="../img/google-plus.svg" alt="Google Plus Icon"/>
     </div>
     </div>
 

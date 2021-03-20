@@ -199,7 +199,7 @@ li {
             rgba(126, 213, 111, 0.7),
             rgba(40, 180, 133, 0.8)
         ),
-        url("../img/hero-opt.jpg");
+        url("../img/blue-hole.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,7 +301,7 @@ h2 {
     margin: 2rem auto;
 }
 .cards__card__image {
-    width:30rem;
+    width: 30rem;
     height: 25rem;
     transition: transform 0.8s;
 }
@@ -315,10 +315,9 @@ h2 {
     transform: scale(1.4);
 }
 
-
 .card-btm {
     padding-bottom: 3rem;
-    margin-top: 2rem;  
+    margin-top: 2rem;
 }
 .card-btm p:first-child {
     font-weight: bold;
@@ -369,6 +368,9 @@ h2 {
 .card-top__img {
     width: 100%;
     padding: 1rem;
+}
+#card-10 {
+    grid-column-start: 2;
 }
 
 @media (max-width: 900px) {

@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="../css/index.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<meta name="description" content="Here at Jamaica Eternal Tours And Transportation we evaluate the prices from other tour agencies 
+            to ensure our prices are as low as possible.">
 <script defer type="module" src="../js/home.js"></script>
     <title>Jamaica Eternal Tours</title>
 
@@ -19,14 +21,14 @@
 
     <main>
         <!-- Video Component -->
-        <section class="section-bgvideo">
+        <!-- <section class="section-bgvideo">
             <div class="video-wrapper">
                  <video muted loop autoplay>
                 <source src="../videos/jm.mp4" type="video/mp4">
             </video>
             </div>
            
-        </section>
+        </section> -->
 
         <!-- Features Component -->
         @include("layouts.features")
@@ -40,7 +42,7 @@
     <div class="cards">
     @foreach (json_decode($cards) -> cards as $card)
 
-        <div class=" cards__card">
+        <div id="card-{{$card -> id }}" class=" cards__card">
             <a href="/book?selectedForm=tours">
             <div class="cards__card__image-wrapper">
             <img class="cards__card__image" src="{{$card->path}}" alt="{{ $card->name }}">
@@ -50,7 +52,7 @@
                 <h3 class="card-btm__heading">{{ $card->name }}</h3>
                 <p class="card-btm__price">Price {{ $card->price }} USD (per person)</p>
                 <div class="card-buttons-wrapper">
-                <a id="book-btn"class="card-btm__button" href="/book?selectedForm=tours">Book</a>     
+                <a class="card-btm__button" href="/book?selectedForm=tours">Book</a>     
                  </div>
 
             </div>
