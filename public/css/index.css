@@ -369,9 +369,6 @@ h2 {
     width: 100%;
     padding: 1rem;
 }
-#card-10 {
-    grid-column-start: 2;
-}
 
 @media (max-width: 900px) {
     .cards {
