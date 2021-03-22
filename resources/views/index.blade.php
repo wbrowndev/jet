@@ -59,9 +59,10 @@
             </div>
 
             @endforeach
-          
 
 </div>
+<p style="color:#000">If your tour (destination) is not listed, please don't worry we support island-wide tours. Just book and we'll take care of it </p>
+
 </section>
 <section class="section-sub-content">
     <div class="sub-content">
@@ -78,7 +79,7 @@
     <div class="gallery">
     <img src="../img/martha-brae.jpg" alt="Martha Brae Jamaica">
     <img src="../img/horse-riding.jpg" alt="Dunns River Jamaica">
-    <img src="../img/negril.jpg" alt="Negril Beach Jamaica">
+    <img src="../img/ys-falls.jpg" alt="Negril Beach Jamaica">
     <img src="../img/blue-mountain-opt.jpg" alt="Blue Mountain Jamaica">
     <img src="../img/blue-hole.jpg" alt="Blue Hole Jamaica">
     <img src="../img/dolphincove.jpg" alt="Dolphin Cove Jamaica">

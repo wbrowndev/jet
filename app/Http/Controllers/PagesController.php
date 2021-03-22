@@ -38,8 +38,11 @@ class PagesController extends Controller
     public function sendEmail(Request $req) {
         $email = $req -> input('email');
         $name = $req -> input("name");
-        $message = $req -> input("message");
-        $mailBody = "Message from " . $name . " " . $email . " says" . $message;
+        $arrivalTime = $req -> input("arrivalTime");
+        $arrivalDate = $req -> input("arrivalDate");
+
+
+        $mailBody = "Message from " . $name . " " . $email . " is booking for " . $arrivalDate . " at " . $arrivalTime ;
         
         mail("eternaltours876@gmail.com","Book Tour",$mailBody);
         echo(json_encode(["success" => true, "message" => "Email Sent"]));

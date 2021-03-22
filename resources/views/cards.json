@@ -52,10 +52,10 @@
         },
         {
             "id": 8,
-            "price": "$12.00 - $50.00",
-            "name": "White Witch Golf Course Rose Hall, Montego Bay, Jamaica",
+            "price": "$10.00 - $40.00",
+            "name": "Montego Bay (St.James) Highlights Shopping Tour  ",
             "type": "Ride through a Safari",
-            "path": "./img/white-witch-golf.jpg"
+            "path": "./img/mb-shopping.jpg"
         },
         {
             "id": 9,
@@ -63,13 +63,6 @@
             "name": "Pelican Bar, Black River Safari & Ys Falls Combo Tour Package",
             "type": "Ride through a Safari",
             "path": "./img/pelican-bar.jpg"
-        },
-        {
-            "id": 10,
-            "price": "$10.00 - $40.00",
-            "name": "Montego Bay Highlights Shopping Tour ",
-            "type": "Ride through a Safari",
-            "path": "./img/mb-shopping.jpg"
         }
     ]
 }
